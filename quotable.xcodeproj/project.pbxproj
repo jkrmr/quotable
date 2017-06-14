@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B398E9E1EF1D0F700B41B85 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398E9D1EF1D0F700B41B85 /* FeedVC.swift */; };
+		1B398EA01EF1D11800B41B85 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398E9F1EF1D11800B41B85 /* ProfileVC.swift */; };
+		1B398EA21EF1D1AE00B41B85 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398EA11EF1D1AE00B41B85 /* PostVC.swift */; };
+		1B398EA51EF1D26000B41B85 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398EA31EF1D26000B41B85 /* QuoteCell.swift */; };
+		1B398EA61EF1D26000B41B85 /* QuoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B398EA41EF1D26000B41B85 /* QuoteCell.xib */; };
+		1B398EA81EF1D29900B41B85 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398EA71EF1D29900B41B85 /* Quote.swift */; };
+		1B398EAA1EF1D2A900B41B85 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B398EA91EF1D2A900B41B85 /* User.swift */; };
 		1B8BC6F41EED10F600775FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BC6F31EED10F600775FE4 /* AppDelegate.swift */; };
 		1B8BC6FB1EED10F600775FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8BC6F91EED10F600775FE4 /* Main.storyboard */; };
 		1B8BC6FD1EED10F600775FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8BC6FC1EED10F600775FE4 /* Assets.xcassets */; };
@@ -25,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B398E9D1EF1D0F700B41B85 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedVC.swift; path = Controllers/FeedVC.swift; sourceTree = "<group>"; };
+		1B398E9F1EF1D11800B41B85 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileVC.swift; path = Controllers/ProfileVC.swift; sourceTree = "<group>"; };
+		1B398EA11EF1D1AE00B41B85 /* PostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostVC.swift; path = Controllers/PostVC.swift; sourceTree = "<group>"; };
+		1B398EA31EF1D26000B41B85 /* QuoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteCell.swift; path = Views/QuoteCell.swift; sourceTree = "<group>"; };
+		1B398EA41EF1D26000B41B85 /* QuoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuoteCell.xib; path = Views/QuoteCell.xib; sourceTree = "<group>"; };
+		1B398EA71EF1D29900B41B85 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = Models/Quote.swift; sourceTree = "<group>"; };
+		1B398EA91EF1D2A900B41B85 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		1B8BC6F01EED10F600775FE4 /* quotable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quotable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8BC6F31EED10F600775FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B8BC6FA1EED10F600775FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +68,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B398E991EF1CCD600B41B85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B398EA71EF1D29900B41B85 /* Quote.swift */,
+				1B398EA91EF1D2A900B41B85 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1B398E9A1EF1CCED00B41B85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B398E9D1EF1D0F700B41B85 /* FeedVC.swift */,
+				1B398E9F1EF1D11800B41B85 /* ProfileVC.swift */,
+				1B398EA11EF1D1AE00B41B85 /* PostVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1B398E9B1EF1CCF700B41B85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B398EA31EF1D26000B41B85 /* QuoteCell.swift */,
+				1B398EA41EF1D26000B41B85 /* QuoteCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1B398E9C1EF1CD0100B41B85 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BC6F91EED10F600775FE4 /* Main.storyboard */,
+				1B8BC6FE1EED10F600775FE4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		1B8BC6E71EED10F600775FE4 = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +126,12 @@
 		1B8BC6F21EED10F600775FE4 /* quotable */ = {
 			isa = PBXGroup;
 			children = (
+				1B398E991EF1CCD600B41B85 /* Models */,
+				1B398E9B1EF1CCF700B41B85 /* Views */,
+				1B398E9A1EF1CCED00B41B85 /* Controllers */,
+				1B398E9C1EF1CD0100B41B85 /* Storyboards */,
 				1B8BC6F31EED10F600775FE4 /* AppDelegate.swift */,
-				1B8BC6F91EED10F600775FE4 /* Main.storyboard */,
 				1B8BC6FC1EED10F600775FE4 /* Assets.xcassets */,
-				1B8BC6FE1EED10F600775FE4 /* LaunchScreen.storyboard */,
 				1B8BC7011EED10F600775FE4 /* Info.plist */,
 			);
 			path = quotable;
@@ -178,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B398EA61EF1D26000B41B85 /* QuoteCell.xib in Resources */,
 				1B8BC7001EED10F600775FE4 /* LaunchScreen.storyboard in Resources */,
 				1B8BC6FD1EED10F600775FE4 /* Assets.xcassets in Resources */,
 				1B8BC6FB1EED10F600775FE4 /* Main.storyboard in Resources */,
@@ -198,7 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B398EA51EF1D26000B41B85 /* QuoteCell.swift in Sources */,
+				1B398EA01EF1D11800B41B85 /* ProfileVC.swift in Sources */,
+				1B398E9E1EF1D0F700B41B85 /* FeedVC.swift in Sources */,
+				1B398EA21EF1D1AE00B41B85 /* PostVC.swift in Sources */,
+				1B398EA81EF1D29900B41B85 /* Quote.swift in Sources */,
 				1B8BC6F41EED10F600775FE4 /* AppDelegate.swift in Sources */,
+				1B398EAA1EF1D2A900B41B85 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +468,7 @@
 				1B8BC7111EED10F600775FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B8BC7121EED10F600775FE4 /* Build configuration list for PBXNativeTarget "quotableTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +477,7 @@
 				1B8BC7141EED10F600775FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
